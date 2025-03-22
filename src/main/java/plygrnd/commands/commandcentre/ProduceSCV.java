@@ -19,6 +19,7 @@ public class ProduceSCV implements ICommand {
 
     public CommandStatus ProduceSCV() {
         // method here to issue command to MQ to produce SCV
+        // todo: add active MQ
         this.Status = CommandStatus.Initialized;
         return this.Status;
     }

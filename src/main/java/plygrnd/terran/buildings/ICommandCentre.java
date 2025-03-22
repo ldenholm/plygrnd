@@ -1,5 +1,5 @@
 package plygrnd.terran.buildings;
 
 public interface ICommandCentre {
-    public ICommand
+    // todo: create interface for terran cmd centre
 }
