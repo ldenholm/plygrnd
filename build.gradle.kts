@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+    implementation("org.apache.activemq:apache-artemis:2.40.0")
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
 
