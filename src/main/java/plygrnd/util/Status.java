@@ -1,6 +1,6 @@
 package plygrnd.util;
 
-public enum CommandStatus {
+public enum Status {
     Initialized,
     Incomplete,
     Complete,
